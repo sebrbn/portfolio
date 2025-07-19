@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Me - Seb's Portfolio</title>
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content-section">
+    <h2>Contact Me</h2>
+    <form method="POST" action="mailto:seb.rbn@gmail.com">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="mobile">Mobile:</label><br>
+      <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>2025 Sebastian Robin</p>
+  </footer>
+</body>
+</html>
